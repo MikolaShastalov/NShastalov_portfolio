@@ -1286,6 +1286,10 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
   border-radius: 0;
 }
 
+.rejected-grid .visual-frame img {
+  border-radius: 4px;
+}
+
 .solution-notes {
   display: grid;
   gap: 16px;
@@ -1816,6 +1820,14 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
 
 .case-nav-actions {
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.case-nav-link {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-size: 0.96rem;
 }
 
 .button-construction {
