@@ -1280,6 +1280,12 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
   background: var(--surface-strong);
 }
 
+.rejected-grid .visual-frame {
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
 .solution-notes {
   display: grid;
   gap: 16px;

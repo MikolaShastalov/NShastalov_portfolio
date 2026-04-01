@@ -222,7 +222,7 @@
           <div class="hotspot-scene">
             <p class="hotspot-kicker">our main working space</p>
             <div class="hotspot-widget" data-rotation-seconds="10">
-              <div class="hotspot-visual">
+              <div class="hotspot-visual hotspot-visual-zoomable">
                 <img src="./assets/stream-quality-main.png" alt="Main Stream Quality workspace" />
                 <button class="hotspot-dot is-active" type="button" style="--x: 64%; --y: 36%;" data-hotspot-index="0" aria-label="Temporal Heatmap Visualization"></button>
                 <button class="hotspot-dot" type="button" style="--x: 12%; --y: 57%;" data-hotspot-index="1" aria-label="Categorical Segmentation"></button>
@@ -259,7 +259,7 @@
 
           <div class="hotspot-scene hotspot-scene-secondary hotspot-scene-reveal">
             <div class="hotspot-widget" data-rotation-seconds="10">
-              <div class="hotspot-visual">
+              <div class="hotspot-visual hotspot-visual-zoomable">
                 <img src="./assets/bubbles.png" alt="Bubble chart Stream Quality view" />
                 <button class="hotspot-dot is-active" type="button" style="--x: 29%; --y: 16%;" data-hotspot-index="0" aria-label="Executive layer in the header"></button>
                 <button class="hotspot-dot" type="button" style="--x: 88%; --y: 9%;" data-hotspot-index="1" aria-label="Three available views"></button>
@@ -299,6 +299,7 @@
           <div class="metrics-grid metrics-grid-three">
             <article class="metric-card">
               <p class="metric-inline-title">Detection speed.</p>
+              <p>Customer informed us that "on-time reactions" increased by ~18%.</p>
             </article>
             <article class="metric-card">
               <p class="metric-inline-title">Trust change.</p>
@@ -306,9 +307,7 @@
             </article>
             <article class="metric-card">
               <p class="metric-inline-title">Behavior change.</p>
-              <ul class="detail-list detail-list-compact">
-                <li>After a year of use, the client said that the number of untimely resolved problems had decreased by a quarter.</li>
-              </ul>
+              <p>After a year of use, the client said that the number of untimely resolved problems had decreased by a quarter.</p>
             </article>
           </div>
         </section>
@@ -356,6 +355,14 @@
           </div>
         </section>
       </main>
+    </div>
+
+    <div class="image-modal" aria-hidden="true">
+      <button class="image-modal-close" type="button" aria-label="Close image">×</button>
+      <div class="image-modal-content">
+        <div class="image-modal-stage"></div>
+        <div class="image-modal-tooltip" hidden></div>
+      </div>
     </div>
   </body>
 </html>
