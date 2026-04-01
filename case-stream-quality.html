@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stream Quality | Nick Shastalov</title>
+    <meta
+      name="description"
+      content="Stream Quality case study by Nick Shastalov."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./theme.js" defer></script>
+  </head>
+  <body class="case-page">
+    <div class="site-shell">
+      <div class="page-meta page-meta-row page-meta-case">
+        <a class="back-link-subtle back-link-arrow" href="./index.html">Back to all case studies</a>
+        <span>Nick Shastalov - Senior Product Designer</span>
+      </div>
+
+      <button class="theme-toggle theme-toggle-floating" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+      </button>
+
+      <main class="case-layout case-layout-refined">
+        <section class="case-hero case-hero-refined case-hero-stacked">
+          <div class="case-hero-copy case-hero-copy-refined case-hero-copy-centered">
+            <h1>Stream Quality case</h1>
+            <p class="case-hero-tagline case-hero-tagline-refined">
+              Why seeing the real users within their real environment is crucial
+            </p>
+            <p class="case-lead-refined">
+              I worked end-to-end on a monitoring tool for drilling teams that depend on
+              real-time sensor streams. The challenge was not only to show data, but to
+              help teams judge whether the data itself could be trusted before making
+              expensive operational decisions.
+            </p>
+          </div>
+          <div class="case-hero-media case-hero-media-refined">
+            <div class="hero-duo">
+              <figure class="hero-duo-card hero-duo-card-wide">
+                <img
+                  src="./assets/stream-quality-main.png"
+                  alt="Stream Quality overview chart and score dashboard"
+                />
+              </figure>
+              <figure class="hero-duo-card hero-duo-card-offset">
+                <img
+                  src="./assets/stream-quality-detail.png"
+                  alt="Stream Quality anomaly stream view"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-meta case-meta-refined">
+          <div>
+            <strong>My Role</strong>
+            <p>As a Senior Product Designer, led the entire product development from discovery to post-delivery support.</p>
+          </div>
+          <div>
+            <strong>Client context</strong>
+            <p>Equinor is a Norwegian energy giant, oil and gas producer</p>
+          </div>
+          <div>
+            <strong>What happened</strong>
+            <p>Through research, I discovered a user pain point that was not known before, so we developed an app to solve the problem.</p>
+          </div>
+          <div>
+            <strong>Outcome</strong>
+            <p>We sold the product to ADNOC, Baker Hughes, Equinor.</p>
+          </div>
+        </section>
+
+        <section class="story-grid story-grid-refined">
+          <article class="story-card story-card-refined story-card-accent">
+            <p class="section-label">How User pain has been discovered</p>
+            <p>
+              Conducting research, I was present in a dispatcher room near a drilling site,
+              sitting with one of the engineers. A colleague across the room asked him for the
+              weight on bit (WOB) for a specific well. Having grown familiar with the software
+              interface, I glanced at the engineer's screen and spotted the value immediately.
+              It took me 1-2 seconds.
+            </p>
+            <p>
+              However, the engineer didn't answer right away. Instead of looking where I was
+              looking, he began cycling through several different applications. I found myself
+              wondering, "Is it possible he doesn't know where the weight on bit is displayed?"
+            </p>
+            <p>
+              After about ten seconds, he finally provided an answer, but the figure he gave
+              was slightly different from what I saw on the screen.
+            </p>
+            <p>
+              The insight: I followed up with an interview to understand his thought process.
+              He explained that sensors on a well aren't always reliable and frequently provide
+              "noisy" or incorrect data. Consequently, engineers don't take the dashboard at
+              face value. Instead, they cross-reference data across multiple apps, look for
+              indirect signs to verify the data quality, and apply manual corrections based on
+              their own experience.
+            </p>
+            <p>
+              That ten-second delay wasn't confusion; it was a manual validation process. This
+              revealed a critical insight: our users are forced to act as "human filters" for
+              unreliable sensor data. We now have a clear mission to solve this by automating
+              data validation or improving data integrity at the source.
+            </p>
+          </article>
+          <article class="story-card story-card-refined story-card-media-stack">
+            <img src="./assets/drilling-dispatcher-room-1.png" alt="Dispatcher room near drilling site" />
+            <img src="./assets/drilling-dispatcher-room-2.png" alt="Engineer workstation in dispatcher room" />
+          </article>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block section-heading-wide">
+            <p class="section-label">How I think</p>
+            <h2>We need an app, that's entire purpose is to help them immediately understand if they can trust data from their sensors.</h2>
+          </div>
+          <div class="logic-grid logic-grid-three">
+            <article class="logic-card">
+              <p>They think in patterns, so visualization should be pattern-first, instead of raw values</p>
+            </article>
+            <article class="logic-card">
+              <p>They already can evaluate data, so we need to offer them an "at-a-glance-ification" of this process.</p>
+            </article>
+            <article class="logic-card">
+              <p>User's double-check each others data quality, so we need to make the interface readable from afar by anyone in the room</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">My role in product development</p>
+          </div>
+          <div class="sprint-table sprint-table-three">
+            <div class="sprint-row sprint-row-head">
+              <div>Stage</div>
+              <div>What I did</div>
+              <div>Output</div>
+            </div>
+            <div class="sprint-row">
+              <div>1. Validation</div>
+              <div>Talked to more users, and tested quick prototypes with them. Talked to devs what is and what is not possible.</div>
+              <div>Hypothesis confirmed, demand confirmed</div>
+            </div>
+            <div class="sprint-row">
+              <div>2. Designing</div>
+              <div>Based on previous step, created user flows, developed and polished UX and UI of the app. Periodically double checking with users and devs.</div>
+              <div>Prototype, that can be used and evaluated on real devices. Entire scope of work is clear. Entire product view.</div>
+            </div>
+            <div class="sprint-row">
+              <div>3. Development</div>
+              <div>At this stage I've been supporting devs with corrections to design based on their input or vice versa - giving them directions on how features should work.</div>
+              <div>Working product that can be pre-saled to customers. And that could reveal more insights on user flows for designers (me).</div>
+            </div>
+            <div class="sprint-row">
+              <div>4. QA</div>
+              <div>Based on QAs feedback, made changes to our UX</div>
+              <div>Fixing all the issues</div>
+            </div>
+            <div class="sprint-row">
+              <div>5. Launch</div>
+              <div>Collecting feedback from our first users (Equinor)</div>
+              <div>It's done! (For now). Live feedback for future improvements.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">☝</p>
+            <h2>My role in the team</h2>
+          </div>
+          <div class="info-card info-card-refined">
+            <p>
+              I was not only designing screens. I was aligning product direction, clarifying the
+              problem, and helping the team agree on what “better” should mean in a high-risk
+              environment.
+            </p>
+          </div>
+        </section>
+
+        <section class="visual-section visual-section-refined rejected-concept">
+          <p class="artifact-caption artifact-caption-top">
+            Some of the variants were rejected by users at the hypothesis-testing stage. They
+            were based on a completely different approaches to what we had in the end: One option
+            proposed users to have automatic running of sensors tests and present the results.
+            This option was the idea of developers, but they missed the points (as expected). The
+            other one was closer to timeline that we have in the final version, but lacked various
+            types of issues, that were important for users
+          </p>
+          <div class="rejected-grid">
+            <div class="visual-frame">
+              <img src="./assets/early-design-declined-later.png" alt="Early rejected Stream Quality concept" />
+            </div>
+            <div class="visual-frame">
+              <img src="./assets/two-wireline-boxes-running.png" alt="Alternative rejected concept for Stream Quality" />
+            </div>
+          </div>
+        </section>
+
+        <section class="visual-section visual-section-refined evolution-section">
+          <p class="section-label">The evolution of my understanding of the problem</p>
+          <div class="evolution-frame">
+            <img
+              src="./assets/rise-of-understanding.png"
+              alt="Diagram showing the evolution of understanding from early research to consolidated design principles"
+            />
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">Let’s talk about some particular solutions.</p>
+          </div>
+
+          <div class="hotspot-scene">
+            <p class="hotspot-kicker">our main working space</p>
+            <div class="hotspot-widget" data-rotation-seconds="10">
+              <div class="hotspot-visual">
+                <img src="./assets/stream-quality-main.png" alt="Main Stream Quality workspace" />
+                <button class="hotspot-dot is-active" type="button" style="--x: 64%; --y: 36%;" data-hotspot-index="0" aria-label="Temporal Heatmap Visualization"></button>
+                <button class="hotspot-dot" type="button" style="--x: 12%; --y: 57%;" data-hotspot-index="1" aria-label="Categorical Segmentation"></button>
+                <button class="hotspot-dot" type="button" style="--x: 31%; --y: 47%;" data-hotspot-index="2" aria-label="The thin vertical hairline"></button>
+                <button class="hotspot-dot" type="button" style="--x: 96%; --y: 31%;" data-hotspot-index="3" aria-label="High-Density Information Layering"></button>
+                <button class="hotspot-dot" type="button" style="--x: 49%; --y: 28%;" data-hotspot-index="4" aria-label="Contextual Data Overlay"></button>
+                <button class="hotspot-dot" type="button" style="--x: 21%; --y: 95%;" data-hotspot-index="5" aria-label="Leveraged Pre-attentive Processing"></button>
+              </div>
+              <div class="hotspot-copy">
+                <div class="hotspot-progress" aria-hidden="true">
+                  <span class="hotspot-progress-bar"></span>
+                </div>
+                <article class="artifact-note hotspot-panel is-active" data-hotspot-panel="0">
+                  <p>Temporal Heatmap Visualization (Swimlane Pattern). Instead of traditional line graphs, we utilize multi-row status ribbons. This design choice allows the user to perceive not just a single error, but the duration and frequency of issues across multiple channels simultaneously. It transforms a complex time series into a scannable visual code: solid blue represents stability, while color-coded fragments represent specific incident types.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="1">
+                  <p>Categorical Segmentation (Functional Swimlanes). The interface is vertically partitioned into logical blocks (Uniformity, Sensibility, Completeness, etc.). These Categorical Swimlanes allow an operator to instantly isolate a problematic domain. For instance, if "Sensibility" shows heavy fragmentation while "Format" remains solid, the user can immediately narrow their diagnostic focus without being distracted by irrelevant data.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="2">
+                  <p>The thin vertical hairline is a critical tool for cross-parameter correlation. As the user hovers, the system aligns data across all categories. This solves the "context gap" by showing exactly what was happening in "Uniformity" at the precise moment "Sensibility" spiked, enabling rapid forensic analysis.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="3">
+                  <p>High-Density Information Layering. In sections like "Sensibility" and "Completeness," we display dozens of individual sub-channels. By using micro-line height and high-contrast color blocks, the design maximizes "data-to-pixel ratio." This allows the monitoring of a massive array of sensors on a single screen without the need for excessive vertical scrolling, which is vital for real-time mission-control environments.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="4">
+                  <p>Contextual Data Overlay (The Rich Tooltip). The Tooltip is designed as a deep-dive micro-dashboard. It doesn't just repeat the status; it provides specific telemetry values. By retaining the color markers within the tooltip, we maintain a strong visual scent, ensuring the user never loses track of which quality pillar they are investigating.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="5">
+                  <p>Leveraged Pre-attentive Processing. By making "All Good" (the blue baseline) the dominant background color, any anomaly acts as a visual disruptor. This leverages the human brain's ability to detect patterns and breaks in patterns almost instantly. This "Exception-Based Design" significantly reduces the Mean Time to Detect (MTTD) by drawing the eye only to the areas that require intervention.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotspot-scene hotspot-scene-secondary hotspot-scene-reveal">
+            <div class="hotspot-widget" data-rotation-seconds="10">
+              <div class="hotspot-visual">
+                <img src="./assets/bubbles.png" alt="Bubble chart Stream Quality view" />
+                <button class="hotspot-dot is-active" type="button" style="--x: 29%; --y: 16%;" data-hotspot-index="0" aria-label="Executive layer in the header"></button>
+                <button class="hotspot-dot" type="button" style="--x: 88%; --y: 9%;" data-hotspot-index="1" aria-label="Three available views"></button>
+                <button class="hotspot-dot" type="button" style="--x: 50%; --y: 44%;" data-hotspot-index="2" aria-label="Position of bubble"></button>
+                <button class="hotspot-dot" type="button" style="--x: 53%; --y: 32%;" data-hotspot-index="3" aria-label="Numeric labels"></button>
+                <button class="hotspot-dot" type="button" style="--x: 17%; --y: 95%;" data-hotspot-index="4" aria-label="Legend colors"></button>
+              </div>
+              <div class="hotspot-copy">
+                <div class="hotspot-progress" aria-hidden="true">
+                  <span class="hotspot-progress-bar"></span>
+                </div>
+                <article class="artifact-note hotspot-panel is-active" data-hotspot-panel="0">
+                  <p>The header serves as a summary executive layer. We know this is the part of the interface that users access most often, but also want to spend the least amount of time on. That's why we made it easy to read without taking up space on the main workspace: we adhere to the F-pattern. User can instantly assess the data’s health before diving into the granular complexity of the visualization below.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="1">
+                  <p>This app has 3 available «views». Every one was selected, based on user’s research and serves the various analytical approaches. Bubble chart is the last one - allows user to evaluate the quality of data streams, by seeing the dynamics of important parameter - ISLU (increase since the last update).</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="2">
+                  <p>Position of Bubble tells the time and depth of Issue, color - type of issue and a small opaque bubble inside the bigger one shows the increase («I» in ISLU).</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="3">
+                  <p>The numeric labels act as unique identifiers, allowing for quick cross-referencing with logs or reports. The semi-transparent overlapping of bubbles (Alpha-blending) prevents "data masking," ensuring that smaller events hidden behind larger ones remain visible.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="4">
+                  <p>Legend colors are based on colors, that are already associated by those types of issues in that customer’s team.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block section-heading-wide">
+            <p class="section-label">Impact</p>
+            <h2>We wanted to sell the product to more customers, so we had to make sure that it satisfied the user as much as possible.</h2>
+          </div>
+          <div class="metrics-grid metrics-grid-three">
+            <article class="metric-card">
+              <p class="metric-inline-title">Detection speed.</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-inline-title">Trust change.</p>
+              <p>After a year of use, the customer reported that the accuracy of problem detection had increased by approximately 20%.</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-inline-title">Behavior change.</p>
+              <ul class="detail-list detail-list-compact">
+                <li>After a year of use, the client said that the number of untimely resolved problems had decreased by a quarter.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="three-up three-up-refined two-up">
+          <article class="info-card info-card-refined">
+            <p class="section-label">Business outcome</p>
+            <h3>The solution was adopted by 3 big customers - ADNOC, Baker Huges and the initial customer - Equinor.</h3>
+            <p>
+              The product proved strong enough to move beyond the initial customer and become a
+              commercially credible solution in a demanding industrial domain.
+            </p>
+          </article>
+          <article class="info-card info-card-refined">
+            <p class="section-label">Reflection</p>
+            <h3>The biggest leap ahead was to finally understand how users think</h3>
+            <p>
+              Once we stopped prioritizing patterns/values, detailed and superficial analysis,
+              the work became clear and fast.
+            </p>
+          </article>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">See more</p>
+          </div>
+          <div class="hero-actions case-nav-actions">
+            <a class="button button-secondary" href="./index.html">Back to main page</a>
+            <a class="button button-primary" href="./case-dashboard.html">Formation Insights</a>
+            <span class="button button-secondary button-construction button-disabled" aria-disabled="true">
+              <span class="button-construction-label">Cups</span>
+              <span class="button-construction-ribbon case-tile-ribbon case-tile-ribbon-slow">
+                <span>Case under construction</span>
+                <span aria-hidden="true">Case under construction</span>
+              </span>
+            </span>
+            <span class="button button-secondary button-construction button-disabled" aria-disabled="true">
+              <span class="button-construction-label">Raffle Rush</span>
+              <span class="button-construction-ribbon case-tile-ribbon case-tile-ribbon-slower">
+                <span>Case under construction</span>
+                <span aria-hidden="true">Case under construction</span>
+              </span>
+            </span>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nick Shastalov | Portfolio Choice</title>
+    <meta
+      name="description"
+      content="Choose between detailed case studies and a visual gallery of Nick Shastalov's product design work."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./theme.js" defer></script>
+  </head>
+  <body class="choice-page">
+    <div class="site-shell">
+      <button class="theme-toggle theme-toggle-floating" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+      </button>
+
+      <main class="choice-main">
+        <section class="choice-hero">
+          <p class="choice-kicker">Nick Shastalov's portfolio.</p>
+          <h1>What would you like to check?</h1>
+        </section>
+
+        <section class="choice-grid" aria-label="Portfolio navigation">
+          <a class="choice-card" href="./index.html">
+            <div class="choice-card-copy">
+              <p>Use cases, with explanation what decisions i've made and why.</p>
+            </div>
+            <div class="choice-card-media">
+              <img src="./assets/gallery-choice-card-1.png" alt="Use cases preview" />
+            </div>
+          </a>
+
+          <a class="choice-card choice-card-alt" href="./gallery.html">
+            <div class="choice-card-copy">
+              <p>Just a collection of screens from apps that i've been working on for last years, with no extra explanation.</p>
+            </div>
+            <div class="choice-card-media">
+              <img src="./assets/gallery-choice-card-2.png" alt="Gallery preview" />
+            </div>
+          </a>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

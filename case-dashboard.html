@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formation Insights | Nick Shastalov</title>
+    <meta
+      name="description"
+      content="Formation Insights case study by Nick Shastalov."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./theme.js" defer></script>
+  </head>
+  <body class="case-page">
+    <div class="site-shell">
+      <div class="page-meta page-meta-row page-meta-case">
+        <a class="back-link-subtle back-link-arrow" href="./index.html">Back to all case studies</a>
+        <span>Nick Shastalov - Senior Product Designer</span>
+      </div>
+
+      <button class="theme-toggle theme-toggle-floating" type="button" aria-label="Toggle theme">
+        <span class="theme-toggle-track">
+          <span class="theme-toggle-thumb"></span>
+        </span>
+      </button>
+
+      <main class="case-layout case-layout-refined">
+        <section class="case-hero case-hero-refined case-hero-stacked">
+          <div class="case-hero-copy case-hero-copy-refined case-hero-copy-centered">
+            <h1 class="case-title-compact">Formation Insights case</h1>
+            <p class="case-hero-tagline case-hero-tagline-refined">
+              We got into the user's mind and gave them what they wanted, even though they couldn't articulate it.
+            </p>
+            <p class="case-lead-refined">
+              A dense operations surface has to support confidence, not just visibility. This
+              project focused on helping managers read the system faster, orient themselves
+              quicker, and act sooner.
+            </p>
+          </div>
+          <div class="case-hero-media case-hero-media-refined">
+            <div class="hero-duo">
+              <figure class="hero-duo-card hero-duo-card-wide">
+                <img
+                  src="./assets/formation-insights-geographic.png"
+                  alt="Formation Insights geographic view"
+                />
+              </figure>
+              <figure class="hero-duo-card hero-duo-card-offset">
+                <img
+                  src="./assets/formation-insights-tracker.png"
+                  alt="Formation Insights tracker view"
+                />
+              </figure>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-meta case-meta-refined">
+          <div>
+            <strong>My Role</strong>
+            <p>Senior Product Designer responsible for research, product framing, UX structure and delivery support.</p>
+          </div>
+          <div>
+            <strong>Product context</strong>
+            <p>Geoscientists needed a complex analytical tool, that could proved them a complete information about earth formations.</p>
+          </div>
+          <div>
+            <strong>The Challenge</strong>
+            <p>Geoscientists and analysts previously relied on a fragmented ecosystem of third-party tools, each providing only a partial view of the data. Our goal was to consolidate these disparate data slices into a single, unified platform to streamline their workflow.</p>
+          </div>
+          <div>
+            <strong>Outcome</strong>
+            <p>Engineered an all-in-one interface for analyzing earth formations, drastically reducing the complexity of data comparison. Our solution's high efficiency led to successful partnerships with market giants like Tecpetrol and Baker Hughes.</p>
+          </div>
+        </section>
+
+        <section class="story-grid story-grid-refined story-grid-mixed">
+          <div class="story-stack">
+            <article class="story-card story-card-refined story-card-accent">
+              <p class="section-label">How the problem looked</p>
+              <p>
+                Geoscientists were working across multiple disconnected tools, each showing only
+                one slice of the subsurface picture. To compare formations, well performance,
+                lithology, and drilling indicators, they had to constantly switch between systems,
+                manually align data, and build their own mental model from fragmented inputs.
+              </p>
+              <p>
+                This made analysis slow, cognitively demanding, and error-prone.
+              </p>
+              <p>
+                Even experienced users were spending too much time stitching information together
+                instead of interpreting it. As a result, critical formation insights were harder
+                to spot, and cross-well comparison required far more effort than it should have.
+              </p>
+            </article>
+            <article class="story-card story-card-refined">
+              <p class="section-label">What users actually needed</p>
+              <p>
+                Users did not need “more data” — they needed a way to see complex geological and
+                drilling information in one coherent analytical environment. They needed to compare
+                multiple wells side by side, track formation behavior across different views, and
+                understand deviations or patterns without jumping between tools.
+              </p>
+              <p>
+                Most importantly, they needed a product that reduced interpretation overhead.
+              </p>
+              <p>
+                The right solution had to turn scattered technical signals into a clear, navigable
+                workflow: one where users could move from raw formation data to confident
+                operational insight faster, with less manual effort and less room for mistakes
+              </p>
+            </article>
+          </div>
+          <aside class="story-card story-card-refined story-photo-card">
+            <img src="./assets/formation-insights-dashboard-room.png" alt="Team standing in front of a wall of industrial dashboards" />
+            <p class="story-photo-caption">On this photo, we can see how many different vizualizations it may take to make a correct data-based decision. Some geoscientist, engineers, dispatchers, drilling operators needed most of these power within one single application. This was our task.</p>
+          </aside>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block section-heading-wide section-heading-compact">
+            <p class="section-label">Hypotheses before research</p>
+            <h2>Users already have all the data. So they need clarity across scales</h2>
+          </div>
+          <div class="logic-grid logic-grid-three">
+            <article class="logic-card">
+              <p>Analysis happens across multiple levels simultaneously. Geoscientists zoom from a top-down view of drilling geography to an “inside-the-well” perspective of formation behavior. A good interface must support this shift seamlessly, without forcing users to mentally reconstruct context between views.</p>
+            </article>
+            <article class="logic-card">
+              <p>Insights emerge from comparison, not isolation. Users constantly compare wells: drilling speed, formation response, and operational issues across layers. Only by aligning this data side-by-side can they understand what “normal” looks like — and where the subject well deviates.</p>
+            </article>
+            <article class="logic-card">
+              <p>The goal is not to show everything (interviews told us they don’t need it), but to reduce uncertainty. Users track how actual drilling performance differs from the plan, where issues concentrate, and how formations behave across wells. The system should highlight deviations, patterns, and next points of attention — so users can move from data to decisions faster. And what’s important, all of that data should be close to each other, within next tab preferably.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">What research revealed</p>
+          </div>
+          <div class="research-table">
+            <div class="research-row research-row-head">
+              <div>Assumption before research</div>
+              <div>What we discovered</div>
+            </div>
+            <div class="research-row">
+              <div>Users already had access to data — the real problem was connecting it across views and scales</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-confirm">✓</span><span>Confirm</span></div>
+            </div>
+            <div class="research-row">
+              <div>More detailed dashboards improve decision-making</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-deny">✕</span><span>Too much detail without structure increased cognitive load and slowed down analysis</span></div>
+            </div>
+            <div class="research-row">
+              <div>Some analytics require mandatory comparison between wells.</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-confirm">✓</span><span>Confirm</span></div>
+            </div>
+            <div class="research-row">
+              <div>Users focus on deviations comparisons.</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-confirm">✓</span><span>Confirm</span></div>
+            </div>
+            <div class="research-row">
+              <div>Geographic view and downhole data are separate workflows</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-deny">✕</span><span>Users constantly switch between macro (map) and micro (inside-the-well) perspectives during a single analysis session. Even more: they need to have a top-down views and gun-barrel view (view from within) near each other.</span></div>
+            </div>
+            <div class="research-row">
+              <div>Issues are analyzed as isolated events</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-deny">✕</span><span>Users interpret issues in context of formation layers and their impact on drilling performance</span></div>
+            </div>
+            <div class="research-row">
+              <div>Users care about «problem zones», they don’t need to see as many layers simultaneously as possible.</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-confirm">✓</span><span>Confirm</span></div>
+            </div>
+            <div class="research-row">
+              <div>Historical data is a primary source for analytics in some slices.</div>
+              <div class="research-cell-with-badge"><span class="research-badge research-badge-confirm">✓</span><span>Confirm</span></div>
+            </div>
+          </div>
+        </section>
+
+        <div class="research-followup research-followup-plain">
+          <p>
+            After completing the first phase of research, we gained a clear understanding of what our app should emphasize, what should be grouped with what, and which parameters and features should be located where.
+          </p>
+          <p>
+            Then came the next phase of research, during which we tested specific designs. And this is what we came up with...
+          </p>
+        </div>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">My role in product development</p>
+          </div>
+          <div class="sprint-table sprint-table-three">
+            <div class="sprint-row sprint-row-head">
+              <div>Stage</div>
+              <div>What I did</div>
+              <div>Output</div>
+            </div>
+            <div class="sprint-row">
+              <div>1. Discovery</div>
+              <div>Reviewed how users currently navigated the dashboard, what they noticed first, and where decision-making slowed down.</div>
+              <div>A clearer map of user priorities and friction points.</div>
+            </div>
+            <div class="sprint-row">
+              <div>2. Structuring</div>
+              <div>Reframed the page around scanability, managerial judgment and a more legible information hierarchy.</div>
+              <div>A stronger dashboard logic and clearer panel responsibilities.</div>
+            </div>
+            <div class="sprint-row">
+              <div>3. Designing</div>
+              <div>Created and refined interface concepts, balancing information density with calmer reading and faster orientation.</div>
+              <div>A dashboard concept that could be understood faster and discussed more clearly.</div>
+            </div>
+            <div class="sprint-row">
+              <div>4. Validation</div>
+              <div>Checked how the concept held up in real workflows and whether users could detect changes, issues and follow-up items more quickly.</div>
+              <div>Evidence that the sequence of information felt more usable under pressure.</div>
+            </div>
+            <div class="sprint-row">
+              <div>5. Delivery</div>
+              <div>Supported the product through final refinement, making sure the design intent stayed intact in implementation.</div>
+              <div>A more actionable dashboard and a clearer shared understanding of its purpose.</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">☝</p>
+            <h2>My role in the team</h2>
+          </div>
+          <div class="info-card info-card-refined">
+            <p>
+              I acted as a translation layer between product intent and user reality. That meant
+              clarifying what users meant by “more visibility,” converting that into interface
+              priorities, and helping the team align around a calmer, more decision-oriented
+              structure.
+            </p>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">Let’s talk about some particular solutions.</p>
+          </div>
+
+          <div class="hotspot-scene">
+            <div class="hotspot-widget" data-rotation-seconds="10">
+              <div class="hotspot-visual hotspot-visual-zoomable">
+                <img src="./assets/formation-tab-1.png" alt="Formation Insights analytical workspace" />
+                <button class="hotspot-dot is-active" type="button" style="--x: 74%; --y: 7%;" data-hotspot-index="0" aria-label="Corelator view"></button>
+                <button class="hotspot-dot" type="button" style="--x: 30%; --y: 47%;" data-hotspot-index="1" aria-label="Formation thickness lines"></button>
+                <button class="hotspot-dot" type="button" style="--x: 82%; --y: 36%;" data-hotspot-index="2" aria-label="Relative performance dashboard"></button>
+                <button class="hotspot-dot" type="button" style="--x: 82%; --y: 12%;" data-hotspot-index="3" aria-label="Current formation reminder"></button>
+                <button class="hotspot-dot" type="button" style="--x: 82%; --y: 17%;" data-hotspot-index="4" aria-label="NPT events"></button>
+                <button class="hotspot-dot" type="button" style="--x: 3%; --y: 8%;" data-hotspot-index="5" aria-label="Top-down view panel"></button>
+                <button class="hotspot-dot" type="button" style="--x: 5%; --y: 22%;" data-hotspot-index="6" aria-label="Depth selector"></button>
+                <button class="hotspot-dot" type="button" style="--x: 23%; --y: 84%;" data-hotspot-index="7" aria-label="Lithologies"></button>
+              </div>
+              <div class="hotspot-copy">
+                <div class="hotspot-progress" aria-hidden="true">
+                  <span class="hotspot-progress-bar"></span>
+                </div>
+                <article class="artifact-note hotspot-panel is-active" data-hotspot-panel="0">
+                  <h3>Corelator view</h3>
+                  <p>Corelator view allows geoscientists to anchor multiple wells on a single screen, synchronized by depth. Thus enabling users to visually trace how drilling parameters deviate across different locations while maintaining a unified geological baseline.</p>
+                  <p>In this tab users can add up to 5 wells and compare their parameters, based on depth (as was said above).</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="1">
+                  <h3>Formation thickness lines</h3>
+                  <p>These lines show users difference in depth (thickness) of formation in every selected well. Our design was pretty innovative and liked by users, so it had been copied later by some of our competitors.</p>
+                  <p>This display of "pinch and swell" (thickness variation) of formations between wells allows geologists to immediately understand stratigraphic trends. Current formation is always highlighted.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="2">
+                  <h3>Relative performance dashboard</h3>
+                  <p>One of user pains was that they need to «jump» between apps to compare key parameters for every well and then correlate it with wells depth based info. We assemble it all at the same place.</p>
+                  <p>This panel is designed as a Relative Performance Dashboard. This "Leaderboard" approach instantly identifies the highest and lowest parameters among the selected wells, accelerating the decision-making process for operational optimization. Subject well - the object of analytics - is always highlighted to it’s place within the range.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="3">
+                  <h3>Current formation reminder</h3>
+                  <p>User can highlight any formation in the chart area, this makes it possible for them to lose the current formation. So we always show the current formation in its separate area. This place in the right corner was selected based on interviews with users - they needed reminder of a current formation near their NPT events.</p>
+                  <p>Formation Story calls the pop-up with the log of changes in data set.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="4">
+                  <h3>NPT events</h3>
+                  <p>NPT’s are events that happened during drilling. E.g. bit stuck or a portion of liquifier poured.</p>
+                  <p>Every event has it’s core and color. Similar to warning lights in a car dashboard. This color coding for NPTs is universal across all our apps. Users often just take a glance at how many NPTs are there and what’s their color. That’s how they read it.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="5">
+                  <h3>Top-down view panel</h3>
+                      <p>Users sometimes need to see wells from above. This panel opens the top-down view. More details on that in next case. But before that app, users opened a top-down map of wells in a separate program, it surprised us that this was an industry-standard before. Users aproved the top-down map inside correlator during testing.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="6">
+                  <h3>Depth selector</h3>
+                  <p>Another feature that was introduced - was a convenient depth selector. Transparent area within selected range shows marking under it, which helps users to navigate, when scale is too granular. Range can be changed. And also fragged along the axis to quickly navigate the entire dataset.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="7">
+                  <h3>Lithologies</h3>
+                  <p>These weird area fills are called «lithologies». They represend various earth formations and every company has a set of their own lithology schemes. They all are customizable. All we can infuence here - is brightness. So we utilised that to show the active actual formation. Based on interviews, users sometimes "lost" the current formation among others, so they wanted to be more focused on it.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotspot-scene">
+            <div class="hotspot-widget" data-rotation-seconds="10">
+              <div class="hotspot-visual hotspot-visual-zoomable">
+                <img src="./assets/formation-tab-2.png" alt="Formation Insights geographic and gun barrel workspace" />
+                <button class="hotspot-dot is-active" type="button" style="--x: 35%; --y: 11%;" data-hotspot-index="0" aria-label="Gun Barrel View"></button>
+                <button class="hotspot-dot" type="button" style="--x: 17%; --y: 18%;" data-hotspot-index="1" aria-label="Top Down View map"></button>
+                <button class="hotspot-dot" type="button" style="--x: 18%; --y: 31%;" data-hotspot-index="2" aria-label="Formation anchors"></button>
+                <button class="hotspot-dot" type="button" style="--x: 68%; --y: 25%;" data-hotspot-index="3" aria-label="Formation Story and parameter panel"></button>
+                <button class="hotspot-dot" type="button" style="--x: 77%; --y: 52%;" data-hotspot-index="4" aria-label="Card reading logic"></button>
+                <button class="hotspot-dot" type="button" style="--x: 50%; --y: 61%;" data-hotspot-index="5" aria-label="Subject well hierarchy"></button>
+                <button class="hotspot-dot" type="button" style="--x: 7%; --y: 48%;" data-hotspot-index="6" aria-label="Dynamic filter panel"></button>
+              </div>
+              <div class="hotspot-copy">
+                <div class="hotspot-progress" aria-hidden="true">
+                  <span class="hotspot-progress-bar"></span>
+                </div>
+                <article class="artifact-note hotspot-panel is-active" data-hotspot-panel="0">
+                  <h3>Gun Barrel View</h3>
+                  <p>Gun Barrel View shows complex 3D coordinates from the "drill’s point of view." This model allows operators to visualize the borehole's position relative to target formation layers in real time.</p>
+                  <p>Colors mean other wells (so called «Offset wells»). Vertical and horizontal lines represent vertical and horizontal drift. The varying thickness along these lines (density markers) visualizes "residency time" - showing where the drill spent the majority of its operation. The round circle is the planned area, and it allows to understand whether we are deviating from the plan. Name is the name of a well.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="1">
+                  <h3>Top Down View</h3>
+                  <p>Dots on the map represent other wellbores in the ares. Lines and their length represent to direction and length of the wellbore.</p>
+                  <p>The "Top Down View" serves as a spatial validator. By showing the directional vectors of each well, the interface allows the user to instantly determine the relevance of a reference well. If a neighboring well is oriented differently, the scientist knows to weigh its data less heavily, preventing errors in geological interpretation.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="2">
+                  <h3>Formation anchors</h3>
+                  <p>Gun barrel view tells operators where every wellbore is situated regarding the earth formations. These lines works as anchor points for users to understand how well is subject well directed.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="3">
+                  <h3>Formation Story and parameter panel</h3>
+                  <p>Understanding a wellbore’s direction, length, and depth is not enought for a comprehensive evaluation. Users must also contextualize performance within specific wellbore’s circumstances. Our research revealed that a peroper analysis requires three data layers to be sychronized: Top-Down view, Gun Barrel, and Well Parameters - all integrated into a single, unified workspace.</p>
+                  <p>This represents the second most critical view within the 'Formation Insights' platform.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="4">
+                  <h3>Card reading logic</h3>
+                  <p>Order of reading for every card in this panel goes as following: Name of parameter &gt; color of Δ to Avg. &gt; Δ to Avg. value. And then, if «Δ to Avg.» goes beyond expectations, the user pays attention to the comparison columns of the characteristics.</p>
+                  <p>Design of cards in this panel is dedicated to this reading logic.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="5">
+                  <h3>Subject well hierarchy</h3>
+                  <p>The design utilizes a clear Target-vs-Reference hierarchy. The "Subject Well" is highlighted as the primary focal point, while "Offset Wells" are color-coded as reference data. This helps user to maintain his attention on comparing offset wells to subject well and make predictions on where to move next - informed.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="6">
+                  <h3>Dynamic filter panel</h3>
+                  <p>Unlike previous view, this one needed our standard filter panel to do a dynamic attribute mapping. Users can assign specific metrics (e.g., "Number of Stages" or "12-month Production") to visual properties like bubble size or color gradients or quickly select batch of data they want to analize. We wanted to make this view a high-fidelity diagnostic engine.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotspot-scene">
+            <div class="hotspot-widget" data-rotation-seconds="10">
+              <div class="hotspot-visual hotspot-visual-zoomable">
+                <img src="./assets/formation-tab-3.png" alt="Formation Insights tracker workspace" />
+                <button class="hotspot-dot is-active" type="button" style="--x: 90%; --y: 7%;" data-hotspot-index="0" aria-label="Tracker operational table"></button>
+                <button class="hotspot-dot" type="button" style="--x: 8%; --y: 29%;" data-hotspot-index="1" aria-label="Formation and subzone context"></button>
+                <button class="hotspot-dot" type="button" style="--x: 42%; --y: 51%;" data-hotspot-index="2" aria-label="Current drill position"></button>
+                <button class="hotspot-dot" type="button" style="--x: 32%; --y: 17%;" data-hotspot-index="3" aria-label="Depth and progress planning"></button>
+                <button class="hotspot-dot" type="button" style="--x: 50%; --y: 17%;" data-hotspot-index="4" aria-label="Metrics assessment"></button>
+                <button class="hotspot-dot" type="button" style="--x: 89%; --y: 17%;" data-hotspot-index="5" aria-label="NPT events by formation"></button>
+                <button class="hotspot-dot" type="button" style="--x: 16%; --y: 57%;" data-hotspot-index="6" aria-label="Row alignment context"></button>
+              </div>
+              <div class="hotspot-copy">
+                <div class="hotspot-progress" aria-hidden="true">
+                  <span class="hotspot-progress-bar"></span>
+                </div>
+                <article class="artifact-note hotspot-panel is-active" data-hotspot-panel="0">
+                  <h3>Tracker operational table</h3>
+                  <p>This interface is designed as a depth-driven operational table, where each row represents a geological formation along the well trajectory. The layout mirrors the physical structure of the borehole, allowing users to navigate drilling progress in a spatially meaningful way.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="1">
+                  <h3>Formation and subzone context</h3>
+                  <p>The left section visualizes formations and subzones using color-coded lithology and gamma ray data, helping users quickly associate numerical values with geological context. The vertical arrangement reflects true depth progression, making it easier to understand where the drill bit is relative to surrounding layers.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="2">
+                  <h3>Current drill position</h3>
+                  <p>The current drill position is highlighted across all columns, providing a clear focal point. Formations above it are visually de-emphasized, indicating completed sections, while upcoming formations remain fully visible. This creates a natural distinction between past, present, and future states of the operation.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="3">
+                  <h3>Depth and progress planning</h3>
+                  <p>Depth and progress columns combine actual measurements with projections. Users can see true vertical depth, measured depth, and lithology alongside estimated time to reach upcoming formations. This allows them to anticipate transitions and prepare for changes in drilling conditions.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="4">
+                  <h3>Metrics assessment</h3>
+                  <p>The Metrics section compares planned and actual values for key parameters such as WOB, ROP, Torque, and RPM. Each value is supported by a visual bar and color-coded status, making deviations immediately noticeable. This enables quick assessment of whether the operation is performing within expected thresholds.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="5">
+                  <h3>NPT events by formation</h3>
+                  <p>NPT events are displayed per formation. Tags and grouped indicators provide visibility into non-productive time without overwhelming the main dataset. Users can quickly identify where issues occurred and correlate them with specific geological intervals.</p>
+                </article>
+                <article class="artifact-note hotspot-panel" data-hotspot-panel="6">
+                  <h3>Row alignment context</h3>
+                  <p>All columns are aligned by row, ensuring that geological data, depth, time, performance metrics, and operational events are always viewed within the same contextual unit. This allows users to analyze relationships between variables without switching views or mentally reconstructing context.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block section-heading-wide">
+            <p class="section-label">Impact</p>
+            <h2>We wanted geoscientists to compare wells, formations, and drilling behaviour inside one coherent analytical workspace.</h2>
+          </div>
+          <div class="metrics-grid metrics-grid-three">
+            <article class="metric-card">
+              <p class="metric-inline-title">Faster comparative analysis.</p>
+              <p>Users no longer had to jump between separate tools to understand formations, offsets, and drilling metrics. The app reduced setup time before actual analysis could begin.</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-inline-title">Higher interpretation confidence.</p>
+              <p>Because geological context, well parameters, and NPT signals were aligned in one place, users could validate assumptions faster and make fewer interpretation mistakes.</p>
+            </article>
+            <article class="metric-card">
+              <p class="metric-inline-title">A workflow that matched real work.</p>
+              <p>The interface started reflecting how geoscientists actually reason: across wells, across scales, and across time. That made the product feel immediately more useful during demos and trials.</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="three-up three-up-refined two-up">
+          <article class="info-card info-card-refined">
+            <p class="section-label">Business outcome</p>
+            <h3>The product became easier to sell because its value was visible in minutes, not after a long explanation.</h3>
+            <p>
+              By unifying scattered geological and operational data into one system, we turned a technically strong but fragmented idea into a convincing product story. The result helped position the solution for enterprise conversations and contributed to partnerships with companies such as Tecpetrol and Baker Hughes.
+            </p>
+          </article>
+          <article class="info-card info-card-refined">
+            <p class="section-label">Reflection</p>
+            <h3>The key shift came when we focused less on adding information and more on helping users keep context while moving between scales.</h3>
+            <p>
+              This case made one thing clear for me: in complex industrial products, usefulness does not come from density alone. It comes from helping experts keep context while moving between macro and micro views. Once we designed for that, the structure of the product became much easier to define.
+            </p>
+          </article>
+        </section>
+
+        <section class="case-section case-section-shell">
+          <div class="section-heading-block">
+            <p class="section-label">See more</p>
+          </div>
+          <div class="hero-actions case-nav-actions">
+            <a class="button button-secondary" href="./index.html">Back to main page</a>
+            <a class="button button-primary" href="./case-stream-quality.html">Stream Quality</a>
+            <span class="button button-secondary button-construction button-disabled" aria-disabled="true">
+              <span class="button-construction-label">Cups</span>
+              <span class="button-construction-ribbon case-tile-ribbon case-tile-ribbon-slow">
+                <span>Case under construction</span>
+                <span aria-hidden="true">Case under construction</span>
+              </span>
+            </span>
+            <span class="button button-secondary button-construction button-disabled" aria-disabled="true">
+              <span class="button-construction-label">Raffle Rush</span>
+              <span class="button-construction-ribbon case-tile-ribbon case-tile-ribbon-slower">
+                <span>Case under construction</span>
+                <span aria-hidden="true">Case under construction</span>
+              </span>
+            </span>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <div class="image-modal" aria-hidden="true">
+      <button class="image-modal-close" type="button" aria-label="Close image">×</button>
+      <div class="image-modal-content">
+        <div class="image-modal-stage"></div>
+        <div class="image-modal-tooltip" hidden></div>
+      </div>
+    </div>
+  </body>
+</html>
