@@ -316,14 +316,14 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
 
 .hero-centered {
   grid-template-columns: 1fr;
-  min-height: 72vh;
-  place-items: start;
+  min-height: 78vh;
+  place-items: center;
   text-align: left;
   background: transparent;
   border: 0;
   box-shadow: none;
-  padding: 14vh 0 24px;
-  margin-bottom: 86px;
+  padding: 8vh 0 6vh;
+  margin-bottom: 56px;
 }
 
 .hero-copy h1,
@@ -2063,6 +2063,16 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
   box-shadow: 0 20px 50px rgba(7, 10, 14, 0.24);
 }
 
+.gallery-back-button-compact {
+  right: 18px;
+  bottom: 18px;
+  width: auto;
+  min-width: 0;
+  padding: 10px 16px;
+  font-size: 0.88rem;
+  box-shadow: 0 14px 34px rgba(7, 10, 14, 0.18);
+}
+
 @media (max-width: 1040px) {
   .hero,
   .case-hero,
@@ -2278,5 +2288,10 @@ html[data-theme="dark"] .theme-toggle-floating .theme-toggle-thumb {
   .gallery-back-button {
     right: 16px;
     bottom: 16px;
+  }
+
+  .gallery-back-button-compact {
+    right: 12px;
+    bottom: 12px;
   }
 }
